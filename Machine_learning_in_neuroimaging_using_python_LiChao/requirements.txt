@@ -1,0 +1,10 @@
+os
+scipy
+pandas
+numpy
+matplotlib
+seaborn
+collections
+scikit-learn
+nilearn
+pyecharts
