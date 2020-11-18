@@ -1,0 +1,216 @@
+{
+    "data_loading": {
+        "whole": {
+            "modalities": {
+                "fc": {
+                    "file": [
+                        "F:/workshop/demo_data/data/sub-40000.mat",
+                        "F:/workshop/demo_data/data/sub-40001.mat",
+                        "F:/workshop/demo_data/data/sub-40002.mat",
+                        "F:/workshop/demo_data/data/sub-40003.mat",
+                        "F:/workshop/demo_data/data/sub-40004.mat",
+                        "F:/workshop/demo_data/data/sub-40005.mat",
+                        "F:/workshop/demo_data/data/sub-40006.mat",
+                        "F:/workshop/demo_data/data/sub-40007.mat",
+                        "F:/workshop/demo_data/data/sub-40008.mat",
+                        "F:/workshop/demo_data/data/sub-40009.mat",
+                        "F:/workshop/demo_data/data/sub-40010.mat",
+                        "F:/workshop/demo_data/data/sub-40011.mat",
+                        "F:/workshop/demo_data/data/sub-40012.mat",
+                        "F:/workshop/demo_data/data/sub-40013.mat",
+                        "F:/workshop/demo_data/data/sub-40014.mat",
+                        "F:/workshop/demo_data/data/sub-40015.mat",
+                        "F:/workshop/demo_data/data/sub-40016.mat",
+                        "F:/workshop/demo_data/data/sub-40017.mat",
+                        "F:/workshop/demo_data/data/sub-40018.mat",
+                        "F:/workshop/demo_data/data/sub-40019.mat",
+                        "F:/workshop/demo_data/data/sub-40020.mat",
+                        "F:/workshop/demo_data/data/sub-40021.mat",
+                        "F:/workshop/demo_data/data/sub-40022.mat",
+                        "F:/workshop/demo_data/data/sub-40023.mat",
+                        "F:/workshop/demo_data/data/sub-40024.mat",
+                        "F:/workshop/demo_data/data/sub-40025.mat",
+                        "F:/workshop/demo_data/data/sub-40026.mat",
+                        "F:/workshop/demo_data/data/sub-40027.mat",
+                        "F:/workshop/demo_data/data/sub-40028.mat",
+                        "F:/workshop/demo_data/data/sub-40029.mat",
+                        "F:/workshop/demo_data/data/sub-40030.mat",
+                        "F:/workshop/demo_data/data/sub-40031.mat",
+                        "F:/workshop/demo_data/data/sub-40032.mat",
+                        "F:/workshop/demo_data/data/sub-40033.mat",
+                        "F:/workshop/demo_data/data/sub-40034.mat",
+                        "F:/workshop/demo_data/data/sub-40035.mat",
+                        "F:/workshop/demo_data/data/sub-40036.mat",
+                        "F:/workshop/demo_data/data/sub-40037.mat",
+                        "F:/workshop/demo_data/data/sub-40038.mat",
+                        "F:/workshop/demo_data/data/sub-40039.mat",
+                        "F:/workshop/demo_data/data/sub-40040.mat",
+                        "F:/workshop/demo_data/data/sub-40041.mat",
+                        "F:/workshop/demo_data/data/sub-40042.mat",
+                        "F:/workshop/demo_data/data/sub-40043.mat",
+                        "F:/workshop/demo_data/data/sub-40044.mat",
+                        "F:/workshop/demo_data/data/sub-40045.mat",
+                        "F:/workshop/demo_data/data/sub-40046.mat",
+                        "F:/workshop/demo_data/data/sub-40047.mat",
+                        "F:/workshop/demo_data/data/sub-40048.mat",
+                        "F:/workshop/demo_data/data/sub-40049.mat",
+                        "F:/workshop/demo_data/data/sub-40050.mat",
+                        "F:/workshop/demo_data/data/sub-40051.mat",
+                        "F:/workshop/demo_data/data/sub-40052.mat",
+                        "F:/workshop/demo_data/data/sub-40053.mat",
+                        "F:/workshop/demo_data/data/sub-40054.mat",
+                        "F:/workshop/demo_data/data/sub-40055.mat",
+                        "F:/workshop/demo_data/data/sub-40056.mat",
+                        "F:/workshop/demo_data/data/sub-40057.mat",
+                        "F:/workshop/demo_data/data/sub-40058.mat",
+                        "F:/workshop/demo_data/data/sub-40059.mat",
+                        "F:/workshop/demo_data/data/sub-40060.mat",
+                        "F:/workshop/demo_data/data/sub-40061.mat",
+                        "F:/workshop/demo_data/data/sub-40062.mat",
+                        "F:/workshop/demo_data/data/sub-40063.mat",
+                        "F:/workshop/demo_data/data/sub-40064.mat",
+                        "F:/workshop/demo_data/data/sub-40065.mat",
+                        "F:/workshop/demo_data/data/sub-40066.mat",
+                        "F:/workshop/demo_data/data/sub-40067.mat",
+                        "F:/workshop/demo_data/data/sub-40068.mat",
+                        "F:/workshop/demo_data/data/sub-40069.mat",
+                        "F:/workshop/demo_data/data/sub-40071.mat",
+                        "F:/workshop/demo_data/data/sub-40072.mat",
+                        "F:/workshop/demo_data/data/sub-40073.mat",
+                        "F:/workshop/demo_data/data/sub-40074.mat",
+                        "F:/workshop/demo_data/data/sub-40076.mat",
+                        "F:/workshop/demo_data/data/sub-40077.mat",
+                        "F:/workshop/demo_data/data/sub-40078.mat",
+                        "F:/workshop/demo_data/data/sub-40079.mat",
+                        "F:/workshop/demo_data/data/sub-40080.mat",
+                        "F:/workshop/demo_data/data/sub-40081.mat",
+                        "F:/workshop/demo_data/data/sub-40082.mat",
+                        "F:/workshop/demo_data/data/sub-40084.mat",
+                        "F:/workshop/demo_data/data/sub-40085.mat",
+                        "F:/workshop/demo_data/data/sub-40086.mat",
+                        "F:/workshop/demo_data/data/sub-40087.mat",
+                        "F:/workshop/demo_data/data/sub-40088.mat",
+                        "F:/workshop/demo_data/data/sub-40089.mat",
+                        "F:/workshop/demo_data/data/sub-40090.mat",
+                        "F:/workshop/demo_data/data/sub-40091.mat",
+                        "F:/workshop/demo_data/data/sub-40092.mat",
+                        "F:/workshop/demo_data/data/sub-40093.mat",
+                        "F:/workshop/demo_data/data/sub-40094.mat",
+                        "F:/workshop/demo_data/data/sub-40095.mat",
+                        "F:/workshop/demo_data/data/sub-40096.mat",
+                        "F:/workshop/demo_data/data/sub-40097.mat",
+                        "F:/workshop/demo_data/data/sub-40098.mat",
+                        "F:/workshop/demo_data/data/sub-40099.mat",
+                        "F:/workshop/demo_data/data/sub-40100.mat",
+                        "F:/workshop/demo_data/data/sub-40101.mat",
+                        "F:/workshop/demo_data/data/sub-40102.mat",
+                        "F:/workshop/demo_data/data/sub-40103.mat",
+                        "F:/workshop/demo_data/data/sub-40104.mat",
+                        "F:/workshop/demo_data/data/sub-40105.mat",
+                        "F:/workshop/demo_data/data/sub-40106.mat",
+                        "F:/workshop/demo_data/data/sub-40107.mat",
+                        "F:/workshop/demo_data/data/sub-40108.mat",
+                        "F:/workshop/demo_data/data/sub-40109.mat",
+                        "F:/workshop/demo_data/data/sub-40110.mat",
+                        "F:/workshop/demo_data/data/sub-40111.mat",
+                        "F:/workshop/demo_data/data/sub-40112.mat",
+                        "F:/workshop/demo_data/data/sub-40113.mat",
+                        "F:/workshop/demo_data/data/sub-40114.mat",
+                        "F:/workshop/demo_data/data/sub-40115.mat",
+                        "F:/workshop/demo_data/data/sub-40116.mat",
+                        "F:/workshop/demo_data/data/sub-40117.mat",
+                        "F:/workshop/demo_data/data/sub-40118.mat",
+                        "F:/workshop/demo_data/data/sub-40119.mat",
+                        "F:/workshop/demo_data/data/sub-40120.mat",
+                        "F:/workshop/demo_data/data/sub-40121.mat",
+                        "F:/workshop/demo_data/data/sub-40122.mat",
+                        "F:/workshop/demo_data/data/sub-40123.mat",
+                        "F:/workshop/demo_data/data/sub-40124.mat",
+                        "F:/workshop/demo_data/data/sub-40125.mat",
+                        "F:/workshop/demo_data/data/sub-40126.mat",
+                        "F:/workshop/demo_data/data/sub-40127.mat",
+                        "F:/workshop/demo_data/data/sub-40128.mat",
+                        "F:/workshop/demo_data/data/sub-40129.mat",
+                        "F:/workshop/demo_data/data/sub-40130.mat",
+                        "F:/workshop/demo_data/data/sub-40131.mat",
+                        "F:/workshop/demo_data/data/sub-40132.mat",
+                        "F:/workshop/demo_data/data/sub-40133.mat",
+                        "F:/workshop/demo_data/data/sub-40134.mat",
+                        "F:/workshop/demo_data/data/sub-40135.mat",
+                        "F:/workshop/demo_data/data/sub-40136.mat",
+                        "F:/workshop/demo_data/data/sub-40137.mat",
+                        "F:/workshop/demo_data/data/sub-40138.mat",
+                        "F:/workshop/demo_data/data/sub-40139.mat",
+                        "F:/workshop/demo_data/data/sub-40140.mat",
+                        "F:/workshop/demo_data/data/sub-40141.mat",
+                        "F:/workshop/demo_data/data/sub-40142.mat",
+                        "F:/workshop/demo_data/data/sub-40143.mat",
+                        "F:/workshop/demo_data/data/sub-40144.mat",
+                        "F:/workshop/demo_data/data/sub-40145.mat",
+                        "F:/workshop/demo_data/data/sub-40146.mat",
+                        "F:/workshop/demo_data/data/sub-40147.mat"
+                    ],
+                    "mask": ""
+                }
+            },
+            "targets": "D:/My_Codes/Python-Workshop-SuZhou/Machine_learning_in_neuroimaging_using_python_LiChao/targets.xlsx",
+            "covariates": ""
+        }
+    },
+    "feature_engineering": {
+        "feature_preprocessing": {
+            "StandardScaler()": {}
+        },
+        "dimreduction": {
+            "PCA()": {
+                "n_components": {
+                    "value": "0.95"
+                }
+            }
+        },
+        "feature_selection": {
+            "RFECV()": {
+                "step": {
+                    "value": "0.10"
+                },
+                "cv": {
+                    "value": "5"
+                },
+                "estimator": {
+                    "value": "SVC(kernel='linear')"
+                },
+                "n_jobs": {
+                    "value": "-1"
+                }
+            }
+        },
+        "unbalance_treatment": {
+            "RandomOverSampler()": {}
+        }
+    },
+    "machine_learning": {
+        "Classification": {
+            "RidgeClassifier()": {
+                "alpha": {
+                    "value": "1"
+                }
+            }
+        }
+    },
+    "model_evaluation": {
+        "StratifiedKFold()": {
+            "n_splits": {
+                "value": "5"
+            },
+            "shuffle": {
+                "value": "True"
+            },
+            "random_state": {
+                "value": "0"
+            }
+        },
+        "Statistical_analysis": {
+            "Binomial test": {}
+        }
+    }
+}
