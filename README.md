@@ -6,7 +6,6 @@ For the the details of the conference and workshop, please go to [第七届全�
 The workshop will be hold on  1:30 pm 22th Nov, 2020, Fucui Hall, NanLin Hotel.
 
 
-
 |     |                                     |             | 
 |-----|-------------------------------------|-------------| 
 | 报告人 | 主题                                  | 时间          | 
@@ -18,4 +17,5 @@ The workshop will be hold on  1:30 pm 22th Nov, 2020, Fucui Hall, NanLin Hotel.
 | 夏涛  | Python在EEG数据分析中的应用，以MNE为例           | 15:45-16:15 | 
 | 黎超  | Python在神经影像机器学习中的应用，以scikit-learn为例 | 16:15-16:45 | 
 |     | 答疑                                  | 16:45-17:00 | 
+
 
