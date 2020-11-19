@@ -18,7 +18,7 @@ fMRIPrep can be ran via the command *fmriprep* directly, or via the command *doc
 
 `fmriprep-docker .\ds003030\ .\output\ participant --fs-licence-file .\license.txt`
 
-`fmriprep-docker .\ds003030\ .\output\ participant --fs-licence-file .\license.txt` --fs-no-reconall
+`fmriprep-docker .\ds003030\ .\output\ participant --fs-licence-file .\license.txt --fs-no-reconall`
 
 File *license.txt* is the FreeSurfer license file, which can be applied via this [link](https://surfer.nmr.mgh.harvard.edu/registration.html). When you receive the license file, put a copy to the main folder (i.e., the same folder as *output*, *ds003030_select*, and *README.md*). 
 
@@ -26,4 +26,5 @@ File *license.txt* is the FreeSurfer license file, which can be applied via this
 
 ### Links
 fMRIPrep https://fmriprep.org/en/stable/index.html
+
 Nipype https://nipype.readthedocs.io/en/latest/
