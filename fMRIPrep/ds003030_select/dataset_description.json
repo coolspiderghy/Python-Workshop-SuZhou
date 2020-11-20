@@ -1,0 +1,9 @@
+{
+    "Name": "Flickering Checkerboard Demo Scans",
+    "BIDSVersion": "1.1.1",
+    "License": "CC0",
+    "Authors": [
+        "C. Brock Kirwan"
+    ],
+    "DatasetDOI": "10.18112/openneuro.ds003030.v1.0.0"
+}
