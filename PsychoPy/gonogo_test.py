@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Jul 08 10:14:59 2018
+Modified on Sat Nov 21 15:15:15 2020
 
-@author: yzpry
+@author: ryan
 """
 
 from datetime import datetime
@@ -25,7 +26,7 @@ dlg = gui.DlgFromDict(data, title='Input data', fixed=['Expname','Expdate'],
 #if participant quit, scripts end here
 if not dlg.OK:
    print("User cancelled the experiment")
-   core.quit
+   core.quit()
 
 filename = 'part_%s_%s.csv' % (data['ParticipantID'],data['Expdate'])
 f = open(filename, 'a+')
@@ -35,7 +36,7 @@ f.write('trialID,stimuli,rt,acc\n')
 
 #set experiment window
 win = visual.Window([1024,768],fullscr = False, \
-                     allowGUI =True, units = "pix", color = (-1,-1,-1))
+                     allowGUI =True, units = "pix", color = (0,0,0))
 
 #set instructions of the experiment
 instruction1 = visual.TextStim(win, text = 'If you see M, press SPACE, if see W, do nothing', pos=(0, 88), color = (1,1,1))
@@ -44,17 +45,20 @@ instruction3 = visual.TextStim(win, text = 'Press ENTER to start experiment', po
 instruction4 = visual.TextStim(win, text = 'Rest for a while', pos=(0, -88), color = (1,1,1))
 instruction5 = visual.TextStim(win, text = 'This is the end of the experiment. Thank you!', pos=(0, -88), color = (1,1,1))
 
-fix = visual.TextStim(win, text = '+', pos=(0, 0), color = (1,1,1))
+#set fixations and stimuli of the experiment
+fix = visual.TextStim(win, text = '+', height=50, pos=(0, 0), color = (1,1,1))
 
-sti = visual.TextStim(win, text = 'B', pos=(0, 0), color = (1,1,1))
+sti = visual.TextStim(win, text = 'B', height=36, pos=(0, 0), color = (1,1,1))
 
+#define a empty list for storing stimulis
 sti_list = []                   
 
-#definea function for trial loop
+#define a function for trial loop
 def trial(n_trial):
     #randomize the stimulus list
     shuffle(sti_list)
     for i in range(n_trial):
+        core.wait(0.4)
         fix.draw()
         win.flip()
         core.wait(0.5)
@@ -97,40 +101,40 @@ win.flip()
 event.waitKeys(keyList=['return'])
 core.wait(1.0)     
 
-#set the practice stimulus list
+#set the practice stimulus list (fixed)
 sti_list = ["M","W","M","W","M","W","M","W","M","W","M","W","M","W"]
 
 #practice block
 trial(10)
+
+#mark between practice and experiment
 f.write('experiment starts below\n')
 
+#ready to run the experiment
 win.flip()
 instruction3.draw()
 win.flip()
 event.waitKeys(keyList=['return'])
 core.wait(1.0) 
 
-#set the first experiment stimulus list
+#set the first experiment stimulus list (generate)
 sti_list = []
 temp = ["M","W","W","W","W"]
-for i in range(30):
+for i in range(3):
     sti_list.extend(temp)
 
 #first experiment block begin
-trial(150)
+trial(15)
 
+#rest
 instruction4.draw()
 win.flip()
-core.wait(10.0)
-
-sti_list = []
-temp = ["W","M","M","M","M"]
-for i in range(30):
-    sti_list.extend(temp)
+core.wait(5.0)
 
 #second experiment block begin
-trial(150)
+trial(15)
 
+#the end of the experiment, close the window and exit psychopy core
 instruction5.draw()
 win.flip()
 event.waitKeys()
