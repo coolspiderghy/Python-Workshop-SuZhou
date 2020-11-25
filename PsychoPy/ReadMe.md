@@ -5,6 +5,9 @@
 ![](微信公众号.png)
 
 ## 文件说明 ##
+Python在实验程序编写中的应用——Ryan.pdf
+———20201122工作坊分享PPT
+
 gonogo.psyexp
 ———使用PsychoPy Builder创建的GoNogo实验（PsychoPy工程文件）
 
